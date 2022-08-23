@@ -1,0 +1,25 @@
+.startup {
+height: 95vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background: url("Road_signs/atl_image.jpg");
+background-size: cover;
+color: white;
+}
+
+
+.start-button {
+width: 120px;
+height: 40px;
+background: grey;
+color: white;
+font-size: 1.5em;
+border-radius: 5px;
+}
+
+.start-button:hover {
+color: grey;
+background: white;
+}

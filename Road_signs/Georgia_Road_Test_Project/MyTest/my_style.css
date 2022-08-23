@@ -1,0 +1,48 @@
+.my_outline {
+display: flex;
+height: 90vh;
+flex-direction: column;
+justify-content: center;
+  align-items: center;
+  background-color: hsl(var(--hue), 100%, 20%);
+}
+
+.button1 {
+margin: 10px;
+
+width: 200px;
+height: 30px;
+border-radius: 10px;    
+background-color: brown;
+color: white;
+}
+
+.button2 {
+margin: 10px;
+    
+width: 200px;
+height: 30px;
+border-radius: 10px;
+background-color: brown;
+color: white;
+}
+
+.button3 {
+margin: 10px;
+    
+width: 200px;
+height: 30px;
+border-radius: 10px;
+background-color: brown;
+color: white;
+}  
+
+.button4 {
+margin: 10px;
+
+width: 200px;
+height: 30px;
+border-radius: 10px;    
+background-color: brown;
+color: white;
+    }

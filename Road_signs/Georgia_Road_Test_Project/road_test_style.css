@@ -1,0 +1,146 @@
+.outline {
+height: 95vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background: brown;
+}
+
+/*.outline {
+ height: 100%;    
+ width: 100%;
+position: absolute;   
+ background-size: cover;
+ background: brown;
+ top: 0%;
+ left: 0%;   
+  
+}  */  
+      
+
+.current-question {
+   margin-top: 5px;
+    width: 100px;
+   height: 20px; 
+    font-size: 1.0rem;
+    color: white;
+    position:absolute;
+  background-color: blue;
+  
+}
+
+.track-image{
+   margin: 20px; 
+   width: 250px;
+   height: 250px; 
+  background-size: cover;
+  position: absolute;
+  
+    
+}
+
+
+.question-text{
+margin-top: 20px;
+height: 30px;
+ width: 100px;
+ background: yellow;   
+ font-size: 0.5rem;
+ color: black;
+  position:absolute;
+ 
+     
+}
+
+
+.button0 {
+ 
+
+  margin-top:15px;
+ height: 20px;
+ width: 100px;
+ background-size: cover;
+ background-position: center;
+ align-items: center;
+ background: green;
+ color: white;
+    
+}
+
+.button1 {
+ margin-top:15px;
+ 
+ height: 20px;
+ width: 100px;
+ background-size: cover;
+ background-position: center;
+ align-items: center;
+ background: green;
+ color: white;   
+} 
+      
+    
+  .button2 {
+ margin-top: 15px;
+      
+      
+ height: 20px;
+ width: 100px;;
+ background-size: cover;
+ background-position: center;
+ align-items: center;
+ background: green;
+  color: white;
+}
+
+
+  
+.button3 {
+ margin-top: 15px;
+
+ height: 20px;
+ width: 100px;
+ background-size: cover;
+ background-position: center;
+ align-items: center;
+ background: green;
+ color: white;
+}
+
+.prev-button {
+height:15px;
+width: 40px;
+font-size: 22px;
+background-size: cover;
+top:
+left: 10%;
+position: absolute;
+align-items: center;
+color: white;    
+ background: red;
+}   
+    
+.repeat-button {
+height: 15px;
+width: 40px;;
+font-size: 22px;
+background-size: cover;
+position:absolute;
+align-items: center;
+color: white;    
+ background: red;
+}  
+
+.next-button {
+height: 15px;
+width: 40px;;
+font-size: 22px;
+background-size: cover;
+position: absolute;
+top:
+left: 70%;
+align-items: center;
+color: white;    
+ background: red;
+}  

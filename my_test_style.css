@@ -1,0 +1,198 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.player{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: brown;
+}
+.wrapper{
+    border: 1px solid transparent;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.current-question {
+   
+    font-size: 1.0rem;
+    color: white;
+    background: green;
+   
+}
+
+    
+
+.track-img {
+ margin: 25px;
+    height: 150px;
+    width: 100px;
+    border: 2px solid #fff;
+    background-size: cover;
+    background-position: center;
+   /* border-radius: 50%;
+   -moz-box-shadow: 0px 6px 5px #ccc;
+    -webkit-box-shadow:0px 6px 5px #ccc;
+    box-shadow: 0px 6px 5px #ccc;
+    -moz-border-radius:190px;
+    -webkit-border-radius:190px;
+    border-radius: 190px;*/
+}
+
+.question-txt {
+ font-size: 1.0rem;
+ color: black;
+ background: yellow;
+    max-width: 300px;
+}
+
+
+
+
+.button0 {
+padding: 10px;
+    margin: 10px;
+max-width: 250px;
+border-radius: 10px;
+ background: grey;
+    color:white;
+    text-align: center;
+    text-justify: center;
+}
+
+
+
+
+
+.button1 {
+
+padding:10px;
+    margin: 10px;
+max-width: 250px;
+border-radius: 10px;
+ background: grey;
+    color:white;
+    text-align: center;
+    text-justify: center;
+}
+
+.button2 {
+
+padding:10px;
+    margin: 10px;
+max-width: 250px;
+border-radius: 10px;
+ background: grey;
+    color:white;
+    text-align: center;
+    text-justify: center;
+}
+
+.button3 {
+
+padding:10px;
+    margin: 10px;
+max-width: 250px;
+border-radius: 10px;
+ background: grey;
+    color:white;
+    text-align: center;
+    text-justify: center;
+}
+
+
+.button0:hover {
+    color: grey;
+    background: white;
+}
+
+.button1:hover {
+    color: grey;
+    background: white;
+}
+
+.button2:hover {
+    color: grey;
+    background: white;
+}
+
+.button3:hover {
+    color: grey;
+    background: white;
+}
+
+.buttons {
+   display: flex;
+   align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}  
+
+
+.prev-button {
+ margin: 5px; 
+ height: 20px;
+ width: 80px;
+ border-radius: 8px;   
+ background-size: cover;
+ background: green;
+ color: white;
+ text-align: center;
+    
+}
+
+.repeat-button {
+ margin: 5px; 
+ height: 20px;
+ width: 80px;
+ border-radius: 8px;   
+ background-size: cover;
+ text-align: center;
+ background: green;
+ color: white;
+    
+}
+
+
+.next-button {
+ margin: 5px; 
+ height: 20px;
+ width: 80px;
+ border-radius: 8px;   
+background-size: cover;
+    text-align: center;
+  background: green;
+ color: white;
+    
+}
+
+.prev-button:hover{
+    color: green;
+    background: white;
+}
+
+
+
+.repeat-button:hover{
+    color: green;
+    background: white;
+}
+
+
+
+.next-button:hover{
+    color: green;
+    background: white;
+}
+    
