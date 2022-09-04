@@ -36,7 +36,7 @@ body{
 .track-img {
  margin: 25px;
     height: 150px;
-    width: 100px;
+    width: 150px;
     border: 2px solid #fff;
     background-size: cover;
     background-position: center;
@@ -177,6 +177,20 @@ background-size: cover;
     
 }
 
+.go-back-button {
+ 
+ margin: 5px; 
+ height: 30px;
+ width: 150px;
+ border-radius: 8px;   
+ background-size: cover;
+border: 1px solid transparent;
+ background: green;
+ color: white;
+ text-align: center;
+    
+}
+
 .prev-button:hover{
     color: green;
     background: white;
@@ -195,4 +209,8 @@ background-size: cover;
     color: green;
     background: white;
 }
+
+.go-back-button:hover{
+    color: green;
+    background: white;
     

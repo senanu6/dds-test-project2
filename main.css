@@ -10,16 +10,31 @@ color: white;
 }
 
 
-.start-button {
-width: 120px;
-height: 40px;
+.dds-practice-button {
+width: 300px;
+height: 50px;
 background: grey;
 color: white;
-font-size: 1.5em;
+font-size: 1.3em;
 border-radius: 5px;
 }
 
-.start-button:hover {
+.dds-practice-button:hover {
+color: grey;
+background: white;
+}
+
+.skills-test-button {
+width: 300px;
+margin: 30px;
+height: 50px;
+background: grey;
+color: white;
+font-size: 1.3em;
+border-radius: 5px;
+}
+
+.skills-test-button:hover {
 color: grey;
 background: white;
 }
